@@ -77,6 +77,11 @@ console.log (x * y / x);
 
 console.log("Division: x + y " + division);
 
+const myAge = 35;
+const minimumDrivingAge = 18;
+const oldenoughtodrive = myAge > minimumDrivingAge;
+
+console.log ('Am I old enough to drive?' + oldenoughtodrive);
 
 
 
