@@ -104,7 +104,7 @@ console.log (calculator.subtract(9,4));
 console.log (calculator.multiply(6,7));
 console.log (calculator.divide(46,2));
 
-
+function whoIsOlder (personA, personB)
 
 
 
