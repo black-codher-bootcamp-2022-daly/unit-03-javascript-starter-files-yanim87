@@ -1,8 +1,22 @@
 // ****************************************************TASK 1****************************************************
 
+const animals =["dog", "cat", "mouse", "lion", "elephant"];
+// const dog = animals[0];
+// const cat = animals[1];
+// const mouse = animals[2];
+// const lion= animals[3];
+// const elephant= animals[4];
 
 
+animals.length
+console.log(animals);
 
+for (let counter=0; counter < animals.length; counter++) {
+const animal = animals[counter];
+}
+
+animals.shift;
+console.log(animals); 
 
 
 
