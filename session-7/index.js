@@ -16,7 +16,17 @@ const animal = animals[counter];
 }
 
 animals.shift;
-console.log(animals); 
+console.log(animals);
+
+animals.pop;
+console.log;
+
+const names =["terry", "anna", "patricia", "samantha"]
+
+function compare (a,b) {
+  console.log (a,a.age)
+  return a.age-b.age;
+}
 
 
 

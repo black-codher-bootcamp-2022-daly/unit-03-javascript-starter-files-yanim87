@@ -20,3 +20,12 @@ const randomFoodName = randomize(foods)
  * name(value1, value2 ... valueN)
  */
 putFoodOnPage(randomFoodName, ".foods")
+
+function handleClick () {
+const randomFoodName = randomize(foods)
+const randomPoints = randomize (points)
+console.log ('click', {randomFoodName, randomPoints})
+putTextOnPage (randomPoints, '.points')
+}
+
+randomButton.onclick = handleClick
